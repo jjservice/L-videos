@@ -106,6 +106,13 @@ const videos = [
     },
     {   
         id: 16, 
+        name: "Realidades - Live Session", 
+        artist: "Nino Freestyle", 
+        img: "NinoFreestyleLiveSessionPic.jpg", 
+        video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
+    },
+    {   
+        id: 17, 
         name: "Puro Guayeteo", 
         artist: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo", 
         img: "GUAYETEOPICCC.jpg", 
