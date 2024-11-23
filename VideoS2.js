@@ -1,136 +1,136 @@
 const videos = [
     {   
         id: 1, 
-        name: "Na Conmigo", 
-        artist: "Lapiz Conciente", 
-        img: "LapizNaConmigoPic.jpg", 
-        video: "Lapiz Conciente - Na Conmigo (Video Oficial).mp4" 
-    },
-    {   
-        id: 2, 
         name: "TOUCHDOWN", 
         artist: "Messiah x Myke Towers", 
         img: "MessiahMikeTouchDownPic.jpg", 
         video: "Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4" 
     },
     {   
-        id: 3, 
-        name: "PRC", 
-        artist: "Peso Pluma, Natanael Cano ", 
-        img: "pesoplumapic.jpg", 
-        video: "Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4" 
-    },
-    {   
-        id: 4, 
-        name: "DORA", 
-        artist: "FARIANA x El Alfa", 
-        img: "elalfadorayouPic.jpg", 
-        video: "FARIANA x El Alfa - DORA.mp4" 
-    },
-    {   
-        id: 5, 
-        name: "Por el Resto de Tu Vida", 
-        artist: "Christian Nodal x TINI", 
-        img: "ChrisNitiporelrestoSpotPic.jpg", 
-        video: "Christian Nodal, TINI - Por el Resto de Tu Vida (Video Oficial).mp45" 
-    },
-    {   
-        id: 6, 
-        name: "Amantes & Amigos", 
-        artist: "Arcángel x Sech", 
-        img: "arcangelsechpicc.jpg", 
-        video: "Arcángel, Sech - Amantes & Amigos (Video Oficial).mp4" 
-    },
-    {   
-        id: 7, 
-        name: "Shampoo de Coco", 
-        artist: "Anuel AA", 
-        img: "anuelshampooPic11.jpg", 
-        video: "Anuel AA - Shampoo de Coco (Video Oficial).mp4" 
-    },
-    {   
-        id: 8, 
-        name: "Cosas Pendientes", 
-        artist: "Maluma", 
-        img: "malumaCosasPendientesPic.jpg", 
-        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
-    },
-    {   
-        id: 9, 
-        name: "La Mejor Versión De Mi", 
-        artist: "Natti Natasha X Romeo Santos", 
-        img: "NatiRomeoLamejorVersionPic.jpg", 
-        video: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi[Official Video].mp4" 
-    },
-    {   
-        id: 10, 
-        name: "Caramelo Remix ", 
-        artist: "Ozuna x Karol G x Myke Towers", 
-        img: "CarameloRemixPic.jpg", 
-        video: "Ozuna x Karol G x Myke Towers - Caramelo Remix  (Video Oficial).mp4" 
-    },
-    {   
-        id: 11, 
-        name: "Corazòn de Acero", 
-        artist: "Yiyo Sarante", 
-        img: "YiyoCorazonDeAceroPic.jpg", 
-        video: "Yiyo Sarante - Corazòn de Acero (Video Oficial).mp4" 
-    },
-    {   
-        id: 12, 
-        name: "ESTE", 
-        artist: "El Alfa  El Jefe  x Nfasis", 
-        img: "este_pic.jpg", 
-        video: "El Alfa  El Jefe  x Nfasis - ESTE (Oficial Video).mp4" 
-    },
-    {   
-        id: 13, 
-        name: "Si Antes Te Hubiera Conocido", 
-        artist: "Karol G", 
-        img: "karolgsiantePIC.jpg", 
-        video: "KAROL G - Si Antes Te Hubiera Conocido(video).mp4" 
-    },
-    {   
-        id: 14, 
-        name: "Lollipop", 
-        artist: "Darell", 
-        img: "darrellolpic.jpg", 
-        video: "Darell - Lollipop (Official Video).mp4" 
-    },
-    {   
-        id: 15, 
-        name: "Segun Quien", 
-        artist: "Maluma x Carin Leon", 
-        img: "malucarinsequienpic1.jpg", 
-        video: "Maluma, Carin Leon - Según Quién (Official Video).mp4" 
-    },
-    {   
-        id: 16, 
-        name: "Realidades - Live Session", 
-        artist: "Nino Freestyle", 
-        img: "NinoFreestyleLiveSessionPic.jpg", 
-        video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
-    },
-    {   
-        id: 17, 
+        id: 2, 
         name: "Triste Halloween", 
         artist: "Pressure 9x19 x YOVNGCHIMI", 
         img: "Pressure9YOVNGTristeHalloweenPic.jpg", 
         video: "Pressure9x19YOVNGCHIMI - Triste Halloween (OfficialVideo).mp4" 
     },
     {   
-        id: 18, 
+        id: 3, 
+        name: "Realidades - Live Session", 
+        artist: "Nino Freestyle", 
+        img: "NinoFreestyleLiveSessionPic.jpg", 
+        video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
+    },
+    {   
+        id: 4, 
         name: "Pila De Cotorra", 
         artist: "El Fother x Darlyn Nay", 
         img: "FotherDarlinPilaDeCotorraPic.jpg", 
         video: "El Fother x Darlyn Nay - Pila De Cotorra (Video Oficial).mp4" 
     },
     {   
-        id: 19, 
+        id: 5, 
+        name: "PRC", 
+        artist: "Peso Pluma, Natanael Cano ", 
+        img: "pesoplumapic.jpg", 
+        video: "Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4" 
+    },
+    {   
+        id: 6, 
+        name: "DORA", 
+        artist: "FARIANA x El Alfa", 
+        img: "elalfadorayouPic.jpg", 
+        video: "FARIANA x El Alfa - DORA.mp4" 
+    },
+    {   
+        id: 7, 
+        name: "Por el Resto de Tu Vida", 
+        artist: "Christian Nodal x TINI", 
+        img: "ChrisNitiporelrestoSpotPic.jpg", 
+        video: "Christian Nodal, TINI - Por el Resto de Tu Vida (Video Oficial).mp45" 
+    },
+    {   
+        id: 8, 
+        name: "Amantes & Amigos", 
+        artist: "Arcángel x Sech", 
+        img: "arcangelsechpicc.jpg", 
+        video: "Arcángel, Sech - Amantes & Amigos (Video Oficial).mp4" 
+    },
+    {   
+        id: 9, 
+        name: "Shampoo de Coco", 
+        artist: "Anuel AA", 
+        img: "anuelshampooPic11.jpg", 
+        video: "Anuel AA - Shampoo de Coco (Video Oficial).mp4" 
+    },
+    {   
+        id: 10, 
+        name: "Cosas Pendientes", 
+        artist: "Maluma", 
+        img: "malumaCosasPendientesPic.jpg", 
+        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
+    },
+    {   
+        id: 11, 
+        name: "La Mejor Versión De Mi", 
+        artist: "Natti Natasha X Romeo Santos", 
+        img: "NatiRomeoLamejorVersionPic.jpg", 
+        video: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi[Official Video].mp4" 
+    },
+    {   
+        id: 12, 
+        name: "Caramelo Remix ", 
+        artist: "Ozuna x Karol G x Myke Towers", 
+        img: "CarameloRemixPic.jpg", 
+        video: "Ozuna x Karol G x Myke Towers - Caramelo Remix  (Video Oficial).mp4" 
+    },
+    {   
+        id: 13, 
+        name: "Corazòn de Acero", 
+        artist: "Yiyo Sarante", 
+        img: "YiyoCorazonDeAceroPic.jpg", 
+        video: "Yiyo Sarante - Corazòn de Acero (Video Oficial).mp4" 
+    },
+    {   
+        id: 14, 
+        name: "ESTE", 
+        artist: "El Alfa  El Jefe  x Nfasis", 
+        img: "este_pic.jpg", 
+        video: "El Alfa  El Jefe  x Nfasis - ESTE (Oficial Video).mp4" 
+    },
+    {   
+        id: 15, 
+        name: "Si Antes Te Hubiera Conocido", 
+        artist: "Karol G", 
+        img: "karolgsiantePIC.jpg", 
+        video: "KAROL G - Si Antes Te Hubiera Conocido(video).mp4" 
+    },
+    {   
+        id: 16, 
+        name: "Lollipop", 
+        artist: "Darell", 
+        img: "darrellolpic.jpg", 
+        video: "Darell - Lollipop (Official Video).mp4" 
+    },
+    {   
+        id: 17, 
+        name: "Segun Quien", 
+        artist: "Maluma x Carin Leon", 
+        img: "malucarinsequienpic1.jpg", 
+        video: "Maluma, Carin Leon - Según Quién (Official Video).mp4" 
+    },
+    {   
+        id: 18, 
         name: "Puro Guayeteo", 
         artist: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo", 
         img: "GUAYETEOPICCC.jpg", 
         video: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo (Official Video).mp4" 
+    },
+    {   
+        id: 19, 
+        name: "Na Conmigo", 
+        artist: "Lapiz Conciente", 
+        img: "LapizNaConmigoPic.jpg", 
+        video: "Lapiz Conciente - Na Conmigo (Video Oficial).mp4" 
     },
     
 ];
