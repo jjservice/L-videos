@@ -227,6 +227,58 @@ searchInput.addEventListener("input", function() {
 
     renderVideos(filteredVideos);
 });
+
+// ////Voice Search Functionality//////////////////////////////
+const voiceSearchButton = document.getElementById("voice-search-button");
+
+// Check if the SpeechRecognition API is available
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+let recognition;
+if (SpeechRecognition) {
+    recognition = new SpeechRecognition();
+    recognition.lang = "es-ES"; // Set language for recognition (you can change this to other languages)
+    recognition.continuous = false; // Only listen for a single command
+    recognition.interimResults = false; // No need for interim results
+
+    // Function to start the voice recognition when the button is clicked
+    voiceSearchButton.addEventListener("click", () => {
+        recognition.start();
+    });
+
+    recognition.addEventListener("result", (event) => {
+        let transcript = event.results[0][0].transcript.toLowerCase(); // Convert to lowercase to match the video names/artists
+        transcript = transcript.replace(/\.$/, ""); // Remove the period if it's at the end of the string
+       
+        searchInput.value = transcript; // Set the search input to the recognized speech
+
+        // Filter the videos based on the recognized voice input
+        const filteredVideos = videos.filter(video =>
+            video.name.toLowerCase().includes(transcript) ||
+            video.artist.toLowerCase().includes(transcript)
+        );
+
+        renderVideos(filteredVideos); // Render the filtered video list
+
+        // Play the sound notification if videos are found
+        if (filteredVideos.length > 0) {
+            notificationSound.play(); // Play sound if matches are found
+        }
+    });
+
+    // Handle speech recognition errors
+    recognition.addEventListener("error", (event) => {
+        console.error("Speech recognition error:", event.error);
+    });
+
+    // Optionally, handle the end of recognition
+    recognition.addEventListener("end", () => {
+        console.log("Voice search ended");
+    });
+} else {
+    console.error("Sorry, your browser does not support voice recognition");
+}
+
 // Lights Section //////////////////////////////////
 function toggleClassPlayer(){
 
