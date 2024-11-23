@@ -1,31 +1,31 @@
 const videos = [
     {   
         id: 1, 
-        name: "Puro Guayeteo", 
-        artist: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo", 
-        img: "GUAYETEOPICCC.jpg", 
-        video: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo (Official Video).mp4" 
+        name: "Na Conmigo", 
+        artist: "Lapiz Conciente", 
+        img: "LapizNaConmigoPic.jpg", 
+        video: "Lapiz Conciente - Na Conmigo (Video Oficial).mp4" 
     },
     {   
         id: 2, 
+        name: "TOUCHDOWN", 
+        artist: "Messiah x Myke Towers", 
+        img: "MessiahMikeTouchDownPic.jpg", 
+        video: "Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4" 
+    },
+    {   
+        id: 3, 
         name: "PRC", 
         artist: "Peso Pluma, Natanael Cano ", 
         img: "pesoplumapic.jpg", 
         video: "Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4" 
     },
     {   
-        id: 3, 
+        id: 4, 
         name: "Lollipop", 
         artist: "Darell", 
         img: "darrellolpic.jpg", 
         video: "Darell - Lollipop (Official Video).mp4" 
-    },
-    {   
-        id: 4, 
-        name: "Segun Quien", 
-        artist: "Maluma x Carin Leon", 
-        img: "malucarinsequienpic1.jpg", 
-        video: "Maluma, Carin Leon - Según Quién (Official Video).mp4" 
     },
     {   
         id: 5, 
@@ -68,7 +68,21 @@ const videos = [
         artist: "Karol G", 
         img: "karolgsiantePIC.jpg", 
         video: "KAROL G - Si Antes Te Hubiera Conocido(video).mp4" 
-    }
+    },
+    {   
+        id: 11, 
+        name: "Puro Guayeteo", 
+        artist: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo", 
+        img: "GUAYETEOPICCC.jpg", 
+        video: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo (Official Video).mp4" 
+    },
+    {   
+        id: 12, 
+        name: "Segun Quien", 
+        artist: "Maluma x Carin Leon", 
+        img: "malucarinsequienpic1.jpg", 
+        video: "Maluma, Carin Leon - Según Quién (Official Video).mp4" 
+    },
     
 ];
 
