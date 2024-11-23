@@ -279,6 +279,24 @@ if (SpeechRecognition) {
     console.error("Sorry, your browser does not support voice recognition");
 }
 
+//////Hide And Show Section //////////
+
+const myButton = document.getElementById("HideShow-Btn");
+const myImg = document.getElementById("video-player");
+
+myButton.addEventListener("click", event => {
+
+   if
+   (myImg.style.display === "none"){
+    myImg.style.display = "block";
+    myButton.textContent ="Hide Screen";
+     }
+   else{
+        myImg.style.display = "none";
+        myButton.textContent = "Screen";
+}   
+});
+
 // Lights Section //////////////////////////////////
 function toggleClassPlayer(){
 
