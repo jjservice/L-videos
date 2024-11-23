@@ -113,6 +113,20 @@ const videos = [
     },
     {   
         id: 17, 
+        name: "Triste Halloween", 
+        artist: "Pressure 9x19 x YOVNGCHIMI", 
+        img: "Pressure9YOVNGTristeHalloweenPic.jpg", 
+        video: "Pressure9x19YOVNGCHIMI - Triste Halloween (OfficialVideo).mp4" 
+    },
+    {   
+        id: 18, 
+        name: "Pila De Cotorra", 
+        artist: "El Fother x Darlyn Nay", 
+        img: "FotherDarlinPilaDeCotorraPic.jpg", 
+        video: "El Fother x Darlyn Nay - Pila De Cotorra (Video Oficial).mp4" 
+    },
+    {   
+        id: 19, 
         name: "Puro Guayeteo", 
         artist: "Wisin, Don Omar, Jowell & Randy - Puro Guayeteo", 
         img: "GUAYETEOPICCC.jpg", 
