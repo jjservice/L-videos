@@ -64,10 +64,10 @@ const videos = [
     },
     {   
         id: 10, 
-        name: "Cosas Pendientes", 
-        artist: "Maluma", 
-        img: "malumaCosasPendientesPic.jpg", 
-        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
+        name: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, ", 
+        artist: "Slayter, Sombra & Ele D-GLIZZY GANGSTER", 
+        img: "GLIZZYGnasterPiccc.jpg", 
+        video: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, Slayter, Sombra & Ele D- GLIZZY GANGSTER (Official Video).mp4" 
     },
     {   
         id: 11, 
@@ -127,6 +127,13 @@ const videos = [
     },
     {   
         id: 19, 
+        name: "Cosas Pendientes", 
+        artist: "Maluma", 
+        img: "malumaCosasPendientesPic.jpg", 
+        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
+    },
+    {   
+        id: 20, 
         name: "Na Conmigo", 
         artist: "Lapiz Conciente", 
         img: "LapizNaConmigoPic.jpg", 
