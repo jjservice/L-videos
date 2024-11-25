@@ -141,12 +141,25 @@ const videos = [
     },
     {   
         id: 21, 
-        name: "Na Conmigo", 
-        artist: "Lapiz Conciente", 
-        img: "LapizNaConmigoPic.jpg", 
-        video: "Lapiz Conciente - Na Conmigo (Video Oficial).mp4" 
+        name: "Una Diabla", 
+        artist: "Pressure9x19 x justin quiles", 
+        img: "UnaDiablaQuilesPressurePic.jpg", 
+        video: "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4" 
     },
-    
+    {   
+        id: 22, 
+        name: "JS4E", 
+        artist: "Arcangel", 
+        img: "ArcaJS4EPic.jpg", 
+        video: "Arcangel - JS4E (Video Oficial).mp4" 
+    },
+    {   
+        id: 23, 
+        name: "Que Esta Pasando", 
+        artist: "El Jincho", 
+        img: "ElJinchoPic.jpg", 
+        video: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp4" 
+    },
 ];
 
 const searchInput = document.getElementById("search-input");
