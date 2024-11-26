@@ -71,10 +71,10 @@ const videos = [
     },
     {   
         id: 11, 
-        name: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, ", 
-        artist: "Slayter, Sombra & Ele D-GLIZZY GANGSTER", 
-        img: "GLIZZYGnasterPiccc.jpg", 
-        video: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, Slayter, Sombra & Ele D- GLIZZY GANGSTER (Official Video).mp4" 
+        name: "Champagne Moments", 
+        artist: "Rick Ross", 
+        img: "RickRossChampagnemomentsPic.jpg", 
+        video: "Rick Ross - Champagne Moments (Official Music Video).mp4" 
     },
     {   
         id: 12, 
@@ -159,6 +159,41 @@ const videos = [
         artist: "El Jincho", 
         img: "ElJinchoPic.jpg", 
         video: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp4" 
+    },
+    {   
+        id: 24, 
+        name: "Terrorita", 
+        artist: "Chucky73 x Fetti031", 
+        img: "Chucky73TerroritaPic.jpg", 
+        video: "Chucky73  X Fetti031 - Terrorita  (Video Oficial).mp4" 
+    },
+    {   
+        id: 25, 
+        name: "Impaciente", 
+        artist: "Chencho Corleone x Miky Woodz", 
+        img: "ChenchoMikyImoacientePic.jpg", 
+        video: "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4" 
+    },
+    {   
+        id: 26, 
+        name: "Estamos Bien", 
+        artist: "Darell x Cosculluela", 
+        img: "CoscuDarelEstamosbienPic.jpg", 
+        video: "Darell x Cosculluela - Estamos Bien (Official Video).mp4" 
+    },
+    {   
+        id: 27, 
+        name: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, ", 
+        artist: "Slayter, Sombra & Ele D-GLIZZY GANGSTER", 
+        img: "GLIZZYGnasterPiccc.jpg", 
+        video: "GLIZZY GVNG, YOVNGCHIMI, Pressure 9x19, Slayter, Sombra & Ele D- GLIZZY GANGSTER (Official Video).mp4" 
+    },
+    {   
+        id: 28, 
+        name: "Lyrical Eazy", 
+        artist: "Rick Ross x Meek Mill", 
+        img: "RickRossMeekLyricalEasyPic.jpg", 
+        video: "Rick Ross, Meek Mill - Lyrical Eazy (Official Music Video).mp4" 
     },
 ];
 
