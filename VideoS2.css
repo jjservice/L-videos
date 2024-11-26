@@ -20,7 +20,6 @@ body.lightPlayer{
   max-width: 370px;
   margin: 20px auto;
   background: rgba(0, 0, 0, 0.363);
-  border: 6px solid rgba(139, 0, 46, 0.336);
   padding-left: 10px;
   padding-right: 10px;
   border: 6px solid rgba(255, 0, 34, 0.342);
@@ -276,9 +275,11 @@ body.lightPlayer .video-item button:hover{
     box-shadow: 0px 2px 15px lightblue;
     transition: 0.5s;
     min-height: 100vh;
+    border: none;
   
   }
   body.lightPlayer .video-player{
+    border: 6px solid rgba(194, 17, 91, 0.623);
     box-shadow: 0px 2px 15px yellowgreen;
     background-image: url(lollipop_3GIF.gif);
     background-position: bottom;
