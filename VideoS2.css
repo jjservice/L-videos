@@ -258,11 +258,6 @@ body.lightPlayer .video-item button:hover{
 }
 
 @media (min-width: 768px) {
-  body{
-    display: grid;
-    flex-direction: row;
-    min-height: 100vh;
-  }
   .video-player {
     margin: 0% auto;
     min-width: 700px;
