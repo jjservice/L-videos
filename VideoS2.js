@@ -192,6 +192,9 @@ let isPlaying = false;
 let currentVideoId = null;
 let isMuted = false;
 
+// Load the notification sound
+const notificationSound = new Audio('notification.mp3'); // Replace with the path to your sound file
+
 function renderVideos(filteredVideos = videos) {
     videoList.innerHTML = "";
 
@@ -330,6 +333,11 @@ searchInput.addEventListener("input", function() {
     );
 
     renderVideos(filteredVideos);
+
+    // Play the sound if videos are found
+    if (filteredVideos.length > 0) {
+        notificationSound.play(); // Play sound when search results are available
+    }
 });
 
 // ////Voice Search Functionality//////////////////////////////
@@ -349,7 +357,9 @@ if (SpeechRecognition) {
     voiceSearchButton.addEventListener("click", () => {
         recognition.start();
     });
-
+     
+    ////Notification Sound/////
+    const notificationSound = new Audio('Cut-Voice-Notification-Sound.mp3'); // Notification sound path
     recognition.addEventListener("result", (event) => {
         let transcript = event.results[0][0].transcript.toLowerCase(); // Convert to lowercase to match the video names/artists
         transcript = transcript.replace(/\.$/, ""); // Remove the period if it's at the end of the string
@@ -367,6 +377,9 @@ if (SpeechRecognition) {
         // Play the sound notification if videos are found
         if (filteredVideos.length > 0) {
             notificationSound.play(); // Play sound if matches are found
+        } else {
+            // Play a different sound if no videos match
+            notificationSound.play();
         }
     });
 
@@ -382,6 +395,7 @@ if (SpeechRecognition) {
 } else {
     console.error("Sorry, your browser does not support voice recognition");
 }
+
 
 //////Hide And Show Section //////////
 
