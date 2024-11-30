@@ -22,10 +22,10 @@ const videos = [
     },
     {   
         id: 4, 
-        name: "Realidades - Live Session", 
-        artist: "Nino Freestyle", 
-        img: "NinoFreestyleLiveSessionPic.jpg", 
-        video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
+        name: "Hora de Salir", 
+        artist: "Chencho Corleone", 
+        img: "ChenchoHoraDeSalirPic.jpg", 
+        video: "Chencho Corleone - Hora de Salir (Official Video).mp4" 
     },
     {   
         id: 5, 
@@ -173,6 +173,13 @@ const videos = [
         artist: "Rick Ross x Meek Mill", 
         img: "RickRossMeekLyricalEasyPic.jpg", 
         video: "Rick Ross, Meek Mill - Lyrical Eazy (Official Music Video).mp4" 
+    },
+    {   
+        id: 26, 
+        name: "Realidades - Live Session", 
+        artist: "Nino Freestyle", 
+        img: "NinoFreestyleLiveSessionPic.jpg", 
+        video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
     },
 ];
 
