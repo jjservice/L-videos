@@ -22,10 +22,10 @@ const videos = [
     },
     {   
         id: 4, 
-        name: "PRC", 
-        artist: "Peso Pluma, Natanael Cano ", 
-        img: "pesoplumapic.jpg", 
-        video: "Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4" 
+        name: "Impaciente", 
+        artist: "Chencho Corleone x Miky Woodz", 
+        img: "ChenchoMikyImoacientePic.jpg", 
+        video: "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4" 
     },
     {   
         id: 5, 
@@ -36,129 +36,130 @@ const videos = [
     },
     {   
         id: 6, 
+        name: "Pa que tú me ronca", 
+        artist: "Químico ultra Mega x Danger", 
+        img: "QuimicoDequeRoncaPic.jpg", 
+        video: "Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4" 
+    },
+    {   
+        id: 7, 
         name: "Por el Resto de Tu Vida", 
         artist: "Christian Nodal x TINI", 
         img: "ChrisNitiporelrestoSpotPic.jpg", 
         video: "Christian Nodal, TINI - Por el Resto de Tu Vida (Video Oficial).mp45" 
     },
     {   
-        id: 7, 
+        id: 8, 
         name: "Amantes & Amigos", 
         artist: "Arcángel x Sech", 
         img: "arcangelsechpicc.jpg", 
         video: "Arcángel, Sech - Amantes & Amigos (Video Oficial).mp4" 
     },
     {   
-        id: 8, 
+        id: 9, 
         name: "Shampoo de Coco", 
         artist: "Anuel AA", 
         img: "anuelshampooPic11.jpg", 
         video: "Anuel AA - Shampoo de Coco (Video Oficial).mp4" 
     },
     {   
-        id: 9, 
+        id: 10, 
         name: "La Mejor Versión De Mi", 
         artist: "Natti Natasha X Romeo Santos", 
         img: "NatiRomeoLamejorVersionPic.jpg", 
         video: "Natti Natasha X Romeo Santos - La Mejor Versión De Mi[Official Video].mp4" 
     },
     {   
-        id: 10, 
+        id: 11, 
         name: "Caramelo Remix ", 
         artist: "Ozuna x Karol G x Myke Towers", 
         img: "CarameloRemixPic.jpg", 
         video: "Ozuna x Karol G x Myke Towers - Caramelo Remix  (Video Oficial).mp4" 
     },
     {   
-        id: 11, 
+        id: 12, 
         name: "Corazòn de Acero", 
         artist: "Yiyo Sarante", 
         img: "YiyoCorazonDeAceroPic.jpg", 
         video: "Yiyo Sarante - Corazòn de Acero (Video Oficial).mp4" 
     },
     {   
-        id: 12, 
+        id: 13, 
         name: "ESTE", 
         artist: "El Alfa  El Jefe  x Nfasis", 
         img: "este_pic.jpg", 
         video: "El Alfa  El Jefe  x Nfasis - ESTE (Oficial Video).mp4" 
     },
     {   
-        id: 13, 
+        id: 14, 
         name: "Si Antes Te Hubiera Conocido", 
         artist: "Karol G", 
         img: "karolgsiantePIC.jpg", 
         video: "KAROL G - Si Antes Te Hubiera Conocido(video).mp4" 
     },
     {   
-        id: 14, 
+        id: 15, 
+        name: "Blank Space", 
+        artist: "Taylor Swift", 
+        img: "TylorSwiftBlankSpace.jpg", 
+        video: "Taylor Swift - Blank Space.mp4" 
+    },
+    {   
+        id: 16, 
+        name: "PRC", 
+        artist: "Peso Pluma, Natanael Cano ", 
+        img: "pesoplumapic.jpg", 
+        video: "Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4" 
+    },
+    {   
+        id: 17, 
         name: "Triste Halloween", 
         artist: "Pressure 9x19 x YOVNGCHIMI", 
         img: "Pressure9YOVNGTristeHalloweenPic.jpg", 
         video: "Pressure9x19YOVNGCHIMI - Triste Halloween (OfficialVideo).mp4" 
     },
     {   
-        id: 15, 
-        name: "Las Pistas Son De Yecko", 
-        artist: "Yecko ft Pressure 9x19", 
-        img: "LasPistasSonDeYeckoPic.jpg", 
-        video: "Yecko ft Pressure 9x19 - Las Pistas Son De Yecko (Official Video).mp4" 
-    },
-    {   
-        id: 16, 
-        name: "Pila De Cotorra", 
-        artist: "El Fother x Darlyn Nay", 
-        img: "FotherDarlinPilaDeCotorraPic.jpg", 
-        video: "El Fother x Darlyn Nay - Pila De Cotorra (Video Oficial).mp4" 
-    },
-    {   
-        id: 17, 
-        name: "Lollipop", 
-        artist: "Darell", 
-        img: "darrellolpic.jpg", 
-        video: "Darell - Lollipop (Official Video).mp4" 
-    },
-    {   
         id: 18, 
-        name: "Cosas Pendientes", 
-        artist: "Maluma", 
-        img: "malumaCosasPendientesPic.jpg", 
-        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
-    },
-    {   
-        id: 19, 
-        name: "Una Diabla", 
-        artist: "Pressure9x19 x justin quiles", 
-        img: "UnaDiablaQuilesPressurePic.jpg", 
-        video: "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4" 
-    },
-    {   
-        id: 20, 
-        name: "JS4E", 
-        artist: "Arcangel", 
-        img: "ArcaJS4EPic.jpg", 
-        video: "Arcangel - JS4E (Video Oficial).mp4" 
-    },
-    {   
-        id: 21, 
-        name: "Que Esta Pasando", 
-        artist: "El Jincho", 
-        img: "ElJinchoPic.jpg", 
-        video: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp4" 
-    },
-    {   
-        id: 22, 
         name: "Terrorita", 
         artist: "Chucky73 x Fetti031", 
         img: "Chucky73TerroritaPic.jpg", 
         video: "Chucky73  X Fetti031 - Terrorita  (Video Oficial).mp4" 
     },
     {   
+        id: 19, 
+        name: "Las Pistas Son De Yecko", 
+        artist: "Yecko ft Pressure 9x19", 
+        img: "LasPistasSonDeYeckoPic.jpg", 
+        video: "Yecko ft Pressure 9x19 - Las Pistas Son De Yecko (Official Video).mp4" 
+    },
+    {   
+        id: 20, 
+        name: "Pila De Cotorra", 
+        artist: "El Fother x Darlyn Nay", 
+        img: "FotherDarlinPilaDeCotorraPic.jpg", 
+        video: "El Fother x Darlyn Nay - Pila De Cotorra (Video Oficial).mp4" 
+    },
+    {   
+        id: 21, 
+        name: "Cosas Pendientes", 
+        artist: "Maluma", 
+        img: "malumaCosasPendientesPic.jpg", 
+        video: "Maluma - Cosas Pendientes (Official Video).mp4" 
+    },
+    {   
+        id: 22, 
+        name: "JS4E", 
+        artist: "Arcangel", 
+        img: "ArcaJS4EPic.jpg", 
+        video: "Arcangel - JS4E (Video Oficial).mp4" 
+    },
+   
+    {   
         id: 23, 
-        name: "Impaciente", 
-        artist: "Chencho Corleone x Miky Woodz", 
-        img: "ChenchoMikyImoacientePic.jpg", 
-        video: "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4" 
+        name: "Una Diabla", 
+        artist: "Pressure9x19 x justin quiles", 
+        img: "UnaDiablaQuilesPressurePic.jpg", 
+        video: "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4" 
     },
     {   
         id: 24, 
@@ -180,6 +181,20 @@ const videos = [
         artist: "Nino Freestyle", 
         img: "NinoFreestyleLiveSessionPic.jpg", 
         video: "Nino Freestyle - Realidades - Live Session - [Official Video].mp4" 
+    },
+    {   
+        id: 27, 
+        name: "Que Esta Pasando", 
+        artist: "El Jincho", 
+        img: "ElJinchoPic.jpg", 
+        video: "El Jincho - Que Esta Pasando (VIDEOCLIP OFICIAL).mp4" 
+    },
+    {   
+        id: 28, 
+        name: "Lollipop", 
+        artist: "Darell", 
+        img: "darrellolpic.jpg", 
+        video: "Darell - Lollipop (Official Video).mp4" 
     },
 ];
 
