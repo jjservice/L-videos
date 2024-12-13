@@ -1,17 +1,17 @@
 const videos = [
     {   
         id: 1, 
-        name: "La Vida Ta Loca", 
-        artist: "Don Miguelo", 
-        img: "DonMigueloLaVidaTaLocaPic.jpg", 
-        video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
-    },
-    {   
-        id: 2, 
         name: "Tiempos de Plan B", 
         artist: "Maldy", 
         img: "MaldyTiemposDePlanBPic.jpg", 
         video: "Maldy - Tiempos de Plan B (Official Video).mp4" 
+    },
+    {   
+        id: 2, 
+        name: "La Vida Ta Loca", 
+        artist: "Don Miguelo", 
+        img: "DonMigueloLaVidaTaLocaPic.jpg", 
+        video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
     },
     {   
         id: 3, 
