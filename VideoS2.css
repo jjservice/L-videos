@@ -776,7 +776,6 @@ body.lightPlayer .modal-content img {
   color: gold;
 }
 details{
-  flex-direction: column;
   position: relative;
   margin: 0% auto;
   margin-top: -30px;
