@@ -802,8 +802,7 @@ details  p{
   height: 80px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 30px;
-  pa 10px
+
   align-items: right;
   justify-content: space-between;
   justify-content: right;
