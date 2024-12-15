@@ -1,10 +1,10 @@
 const videos = [
     {   
         id: 1, 
-        name: "I Get The Bag", 
-        artist: "Gucci Mane x Migos", 
-        img: "Gucci-Mane-Migos-I-Get-The-Bag-PICCC.jpg", 
-        video: "Gucci Mane - I Get The Bag feat. Migos [Official Music Video].mp4" 
+        name: "DOLLAZ ON MY HEAD", 
+        artist: "Gunna x Young Thug", 
+        img: "DollaZonPic.jpg", 
+        video: "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4" 
     },
     {   
         id: 2, 
@@ -127,10 +127,10 @@ const videos = [
     },
     {   
         id: 19, 
-        name: "Triste Halloween", 
-        artist: "Pressure 9x19 x YOVNGCHIMI", 
-        img: "Pressure9YOVNGTristeHalloweenPic.jpg", 
-        video: "Pressure9x19YOVNGCHIMI - Triste Halloween (OfficialVideo).mp4" 
+        name: "I Get The Bag", 
+        artist: "Gucci Mane x Migos", 
+        img: "Gucci-Mane-Migos-I-Get-The-Bag-PICCC.jpg", 
+        video: "Gucci Mane - I Get The Bag feat. Migos [Official Music Video].mp4" 
     },
     {   
         id: 20, 
@@ -205,13 +205,20 @@ const videos = [
     },
     {   
         id: 30, 
+        name: "Triste Halloween", 
+        artist: "Pressure 9x19 x YOVNGCHIMI", 
+        img: "Pressure9YOVNGTristeHalloweenPic.jpg", 
+        video: "Pressure9x19YOVNGCHIMI - Triste Halloween (OfficialVideo).mp4" 
+    },
+    {   
+        id: 31, 
         name: "Lollipop", 
         artist: "Darell", 
         img: "darrellolpic.jpg", 
         video: "Darell - Lollipop (Official Video).mp4" 
     },
     {   
-        id: 31, 
+        id: 32, 
         name: "La Vida Ta Loca", 
         artist: "Don Miguelo", 
         img: "DonMigueloLaVidaTaLocaPic.jpg", 
