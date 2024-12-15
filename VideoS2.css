@@ -365,11 +365,11 @@ body.lightPlayer .video-item button:hover{
 }
 .draggable-box {
   margin: 0% auto;
-  
   display: inline-block;
   background-color: darkblue;
   padding: 10px 20px;
-  left: 10;
+  right: 20px;
+  top: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -382,16 +382,12 @@ body.lightPlayer .video-item button:hover{
   opacity: 100%;
 }
 .draggable-box ion-icon{
-  visibility: visible;
   color: gold;
   
 }
  
 }
-.draggable-box ion-icon{
-  visibility: hidden;
-  
-}
+
 
 
 .homebtn{
