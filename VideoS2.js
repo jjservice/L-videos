@@ -472,3 +472,34 @@ function toggleClassPlayer(){
     body.classList.toggle('lightPlayer');
     
     }
+
+
+    //////Drag Me Box///////
+
+    // script.js
+
+const box = document.getElementById('draggable');
+
+let isDragging = false;
+let offsetX, offsetY;
+
+box.addEventListener('mousedown', (event) => {
+  isDragging = true;
+  offsetX = event.clientX - box.offsetLeft;
+  offsetY = event.clientY - box.offsetTop;
+  
+  // Change the cursor to indicate dragging
+  box.style.cursor = 'grabbing';
+});
+
+document.addEventListener('mousemove', (event) => {
+  if (isDragging) {
+    box.style.left = event.clientX - offsetX + 'px';
+    box.style.top = event.clientY - offsetY + 'px';
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  isDragging = false;
+  box.style.cursor = 'grab';
+});

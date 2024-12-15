@@ -286,12 +286,18 @@ body.lightPlayer .video-item button:hover{
   }
   .video-list{
     margin: 0% auto;
-    display: grid;
+    position: absolute;
+  
     gap: 15px;
+    top: 118px;
     flex-direction: column;
-    grid-template-columns: repeat(2, 1fr);
+    right: 20px;
     font-size: 25px;
-    min-height: 170px;
+    min-height: 500px;
+    width: 360px;
+    border: 2px solid rgba(255, 217, 0, 0.425);
+    border-radius: 15px;
+    box-shadow: 0px 2px 6px darkgray;
   }
   .video-item{
     box-shadow: 0px 3px 3px rgba(169, 169, 169, 0.603);
@@ -326,8 +332,8 @@ body.lightPlayer .video-item button:hover{
     margin: 0% auto;
     display: flex;
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     padding: 5px;
     justify-content: center;
     align-items: center;
@@ -357,7 +363,31 @@ body.lightPlayer .video-item button:hover{
     position: relative;
     top: -10px;
 }
+.draggable-box {
+  margin: 0% auto;
+  color: white;
+  text-shadow: 2px 2px 4px gold;
+  background-color: darkblue;
+  padding: 10px 20px;
+  left: 10;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: grab;
+  position: absolute;
+  border-radius: 20px;
+}
+.draggable-box:hover{
+  background-color: green;
+  opacity: 100%;
+}
  
+}
+.draggable-box{
+  color: transparent;
+  text-shadow: 0px 0px 0px transparent;
+  margin-top: -10px;
+  justify-content: ;
 }
 
 
