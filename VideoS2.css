@@ -365,8 +365,8 @@ body.lightPlayer .video-item button:hover{
 }
 .draggable-box {
   margin: 0% auto;
-  color: white;
-  text-shadow: 2px 2px 4px gold;
+  
+  display: inline-block;
   background-color: darkblue;
   padding: 10px 20px;
   left: 10;
@@ -381,13 +381,16 @@ body.lightPlayer .video-item button:hover{
   background-color: green;
   opacity: 100%;
 }
+.draggable-box ion-icon{
+  visibility: visible;
+  color: gold;
+  
+}
  
 }
-.draggable-box{
-  color: transparent;
-  text-shadow: 0px 0px 0px transparent;
-  margin-top: -10px;
-  justify-content: ;
+.draggable-box ion-icon{
+  visibility: hidden;
+  
 }
 
 
