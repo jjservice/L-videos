@@ -108,11 +108,6 @@ body.lightPlayer h1{
   text-align: center;
   box-shadow: 0px 1px 5px lightsalmon;
   transition: 0.5s;
-  background-image: url(DocumentariesGif.gif);
-  background-position: center;
-  background-size: 100%;
-  opacity: 80%;
-
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -803,9 +798,6 @@ details{
   
  
 }
-details summary{
-  margin: 0% auto;
-}
 details  p{
   margin: 0% auto;
   background-image: url(NikelogoGif.gif);
@@ -820,10 +812,11 @@ details  p{
   border-radius: 15px;
   border: 1px solid lightskyblue;
   transition: 0.5s ease-in-out;
-  box-shadow: 0px 2px 8px black;
+  box-shadow: 0px 2px 6px lightskyblue;
 }
 body.lightPlayer details p{
   border: 1px solid rgba(153, 205, 50, 0.774);
+  box-shadow: 0px 2px 8px yellowgreen;
 } 
 details  p:hover{
   transform: scale(1.05);
@@ -915,5 +908,77 @@ details  .Shop-Visit-Pic:hover{
   transform: scale(1.05);
   transition: 1s;
    box-shadow: 0px 2px 8px gold;
+}
+
+
+
+.Nav-Section2 nav{
+  margin: 0% 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+ 
+}
+.Nav-Section2 li{
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.Nav-Section2 a{
+  margin: 0% auto;
+  text-decoration: none;
+  text-align: center;
+  color: transparent;
+  background-color: rgba(0, 0, 0, 0.39);
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-bottom: 2px solid wheat;
+  box-shadow: 0px 2px 4px lightskyblue;
+  opacity: 75%;
+  transition: 1s ease-in;
+}
+.Nav-Section2 a:hover{
+  box-shadow: 0px 2px 10px rgba(135, 206, 250, 0.801);
+ 
+}
+.Nav-Section2 li:hover{
+  transform: scale(1.10);
+  transition: 0.5s;
+}
+body.lightPlayer .Nav-Section2 a{
+  border-bottom: 2px solid rgba(153, 205, 50, 0.774);
+  box-shadow: 0px 2px 8px black;
+}
+body.lightPlayer .Nav-Section2 a:hover{
+  box-shadow: 0px 2px 10px gold;
+}
+
+.Kids-nav a{
+  background-image: url(MovieGifff.gif);
+  background-position: top;
+  background-size: cover;
+
+}
+.Documentaries-nav a{
+  background-image: url(DocumentariesGif.gif);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.Music-player-nav a{
+  background-image: url(MusicSearchBarGif.gif);
+  background-position: center;
+  background-size: cover;
+}
+body.lightPlayer .Nav-Section2 a{
+  padding: 5px 30px;
+  background-color: rgba(4, 4, 95, 0.342);
+  opacity: 90%;
 }
 
