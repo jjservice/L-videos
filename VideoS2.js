@@ -1,17 +1,17 @@
 const videos = [
     {   
         id: 1, 
+        name: "I Get The Bag", 
+        artist: "Gucci Mane x Migos", 
+        img: "Gucci-Mane-Migos-I-Get-The-Bag-PICCC.jpg", 
+        video: "Gucci Mane - I Get The Bag feat. Migos [Official Music Video].mp4" 
+    },
+    {   
+        id: 2, 
         name: "Tiempos de Plan B", 
         artist: "Maldy", 
         img: "MaldyTiemposDePlanBPic.jpg", 
         video: "Maldy - Tiempos de Plan B (Official Video).mp4" 
-    },
-    {   
-        id: 2, 
-        name: "La Vida Ta Loca", 
-        artist: "Don Miguelo", 
-        img: "DonMigueloLaVidaTaLocaPic.jpg", 
-        video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
     },
     {   
         id: 3, 
@@ -209,6 +209,13 @@ const videos = [
         artist: "Darell", 
         img: "darrellolpic.jpg", 
         video: "Darell - Lollipop (Official Video).mp4" 
+    },
+    {   
+        id: 31, 
+        name: "La Vida Ta Loca", 
+        artist: "Don Miguelo", 
+        img: "DonMigueloLaVidaTaLocaPic.jpg", 
+        video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
     },
 ];
 
