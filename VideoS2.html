@@ -19,9 +19,6 @@
         </video>
           <br>
           
-          
-
-
          <!-- ADDSSS ADDDSSS -->
       <details>
         <summary><p></p></summary>
@@ -58,6 +55,30 @@
        
         <!-- Video list -->
         <div id="video-list" class="video-list"></div>
+
+
+        <details  class="Comment-Section">
+          <summary>THE SECRET CHAT!</summary>
+          <div id="disqus_thread"></div>
+          <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://lollipop-5.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+           </details>
 
            <!-- Progress Bar -->
      <progress id="progress-bar" value="0" max="100" style="width: 100%; margin-top: 20px;"></progress>
@@ -138,6 +159,7 @@
     
   </script>
     
+    <script id="dsq-count-scr" src="//lollipop-5.disqus.com/count.js" async></script>
 </body>
 <script src="VideoS2.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
