@@ -15,45 +15,45 @@ const videos = [
     },
     {   
         id: 3, 
+        name: "Sigo Guerreando", 
+        artist: "Lolo En Él Micrófono", 
+        img: "LoloenelmicrofonoPic.jpg", 
+        video: "Lolo En Él Micrófono - Sigo Guerreando.mp4"
+    },
+    {   
+        id: 4, 
         name: "Hora de Salir", 
         artist: "Chencho Corleone", 
         img: "ChenchoHoraDeSalirPic.jpg", 
         video: "Chencho Corleone - Hora de Salir (Official Video).mp4" 
     },
     {   
-        id: 4, 
+        id: 5, 
         name: "Champagne Moments", 
         artist: "Rick Ross", 
         img: "RickRossChampagnemomentsPic.jpg", 
         video: "Rick Ross - Champagne Moments (Official Music Video).mp4" 
     },
     {   
-        id: 5, 
+        id: 6, 
         name: "TOUCHDOWN", 
         artist: "Messiah x Myke Towers", 
         img: "MessiahMikeTouchDownPic.jpg", 
         video: "Messiah, Myke Towers - TOUCHDOWN (Video Oficial).mp4" 
     },
     {   
-        id: 6, 
+        id: 7, 
         name: "Impaciente", 
         artist: "Chencho Corleone x Miky Woodz", 
         img: "ChenchoMikyImoacientePic.jpg", 
         video: "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4" 
     },
     {   
-        id: 7, 
+        id: 8, 
         name: "Blank Space", 
         artist: "Taylor Swift", 
         img: "TylorSwiftBlankSpace.jpg", 
         video: "Taylor Swift - Blank Space.mp4" 
-    },
-    {   
-        id: 8, 
-        name: "DORA", 
-        artist: "FARIANA x El Alfa", 
-        img: "elalfadorayouPic.jpg", 
-        video: "FARIANA x El Alfa - DORA.mp4" 
     },
     {   
         id: 9, 
@@ -223,6 +223,13 @@ const videos = [
         artist: "Don Miguelo", 
         img: "DonMigueloLaVidaTaLocaPic.jpg", 
         video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
+    },
+    {   
+        id: 33, 
+        name: "DORA", 
+        artist: "FARIANA x El Alfa", 
+        img: "elalfadorayouPic.jpg", 
+        video: "FARIANA x El Alfa - DORA.mp4" 
     },
 ];
 
