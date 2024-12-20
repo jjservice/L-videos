@@ -95,12 +95,15 @@ body.Video-Light .product img{
 .modal-content {
     position: relative;
     margin: auto;
-    background-color: #fefefe;
+    background-color: rgba(135, 206, 250, 0.452);
     padding: 20px;
     width: 80%;
     max-width: 800px; /* Limit width */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+body.Video-Light .modal-content{
+    background-color: rgba(220, 20, 60, 0.5);
 }
 
 video {
@@ -156,6 +159,7 @@ video {
     color: darkgray;
     text-shadow: 2px 2px 2px darkblue;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 .Click-tag{
     margin: 0% auto;
@@ -171,6 +175,7 @@ body.Video-Light .Click-tag{
     color: black;
 }
 h3{
+    font-size: 16px;
     margin-bottom: 10px;
 }
 .Class-Note{
