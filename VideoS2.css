@@ -1151,6 +1151,9 @@ opacity: 100%;
   border: 1px solid yellowgreen;
  }
  summary ion-icon{
+  color: rgba(245, 222, 179, 0.89);
+ }
+ body.lightPlayer summary ion-icon{
   color: rgba(255, 217, 0, 0.856);
  }
 
