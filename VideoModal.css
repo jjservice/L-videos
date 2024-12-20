@@ -179,7 +179,7 @@ h3{
 .container{
     display: flex;
     overflow: scroll;
-    height: 470px;
+  
 }
 .container .product{
     margin: 0% auto;
@@ -195,7 +195,7 @@ h3{
 }
 
 .container::-webkit-scrollbar-thumb{
-    background-color: darkblue;
+    background-color: transparent;
     border-radius: 8px;
     height: 10px;
     width: 0px;
