@@ -1,5 +1,4 @@
 
-
 //// Light Section ////
 
 function toggleLight(){

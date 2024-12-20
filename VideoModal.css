@@ -18,26 +18,48 @@ body.Video-Light{
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
 }
 h1{
+    margin: 0% auto;
+    width: 300px;
     color: wheat;
     text-shadow: 2px 2px 4px darkblue;
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 40px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    padding: 5px;
 
+}
+h2{
+    font-size: 16px;
+    color: darkgray;
+    text-shadow: 2px 2px 2px darkblue;
+    margin-bottom: 5px;
+}
+
+h2 ion-icon{
+    color: wheat;
+}
+body.Video-Light h2 ion-icon{
+    color: rgba(255, 217, 0, 0.856);
 }
 body.Video-Light h1{
     color: white;
     text-shadow: 2px 2px 4px gold;
 }
 .product {
+    margin: 0% auto;
     display: inline-block;
     text-align: center;
-    margin: 20px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    width: 370px;
+    height: 480px;
+  
 }
 
 .product img {
@@ -46,6 +68,10 @@ body.Video-Light h1{
     cursor: pointer;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    border: 1px solid lightskyblue;
+}
+body.Video-Light .product img{
+    border: 1px solid rgba(153, 205, 50, 0.781);
 }
 
 .product img:hover {
@@ -125,4 +151,28 @@ video {
         font-size: 24px;
         padding: 8px;
     }
+}
+#Video-tag{
+    color: darkgray;
+    text-shadow: 2px 2px 2px darkblue;
+    margin-bottom: 10px;
+}
+.Click-tag{
+    margin: 0% auto;
+    width: 200px;
+    margin-bottom: 10px;  
+    background-color: rgba(255, 255, 255, 0.308);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body.Video-Light .Click-tag{
+    color: black;
+}
+h3{
+    margin-bottom: 10px;
+}
+.Class-Note{
+    color: darkgray;
 }
