@@ -175,7 +175,7 @@ h3{
 .container{
     display: flex;
     overflow: scroll;
-    height: 450px;
+    height: 470px;
 }
 .container .product{
     margin: 0% auto;
