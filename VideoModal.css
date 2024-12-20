@@ -179,7 +179,7 @@ h3{
 .container{
     display: flex;
     overflow: scroll;
-  
+    
 }
 .container .product{
     margin: 0% auto;
@@ -218,4 +218,17 @@ h3{
         padding: 8px;
     }
    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(155, 151, 151, 0.719);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 139, 0.329);
 }
