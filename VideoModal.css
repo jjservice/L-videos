@@ -56,11 +56,15 @@ body.Video-Light h1{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(135, 206, 250, 0.842);
     transition: all 0.3s ease;
     width: 350px;
     height: 350px;
+    transition: 1s ease-in-out;
   
+}
+body.Video-Light .product{
+    box-shadow: 0px 4px 8px black;
 }
 
 .product img {
