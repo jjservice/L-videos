@@ -186,7 +186,7 @@ h3{
 }
 .container::-webkit-scrollbar{
     background-color: transparent;
-    height: 10px;
+    height: 15px;
     width: 0;
 }
 .container::-webkit-scrollbar-track{
@@ -194,8 +194,9 @@ h3{
 }
 
 .container::-webkit-scrollbar-thumb{
-    background-color: blue;
+    background-color: darkblue;
     border-radius: 8px;
-    height: 15px;
+    height: 10px;
     width: 0px;
+    border: 1px solid yellowgreen;
 }
