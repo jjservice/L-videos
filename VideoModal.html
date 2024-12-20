@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="VideoModal.css">
     <title>LOLLIPOP VIDEO GALLERY</title>
 </head>
-<body>
+<body class="Video-Light">
+
+    <h1 onclick="toggleLight()">LOLLIPOP</h1>
+
     <div class="product">
-    <img src="QuimicoDequeRoncaPic.jpg" onclick="openModal(0)">
-    <p id="Price-tag">NEW</p>
-    <h3>Quimico Ultramega x Danger</h3>
-    <p class="size-tag">Pa Que Tu Me Ronca</p>
-    <a href="#" class="Buy-Now-Tag">WATCH NOW!</a>
+    <img src="MusicGig.gif" onclick="openModal(0)">
+    <p id="Price-tag">VIDEO GALLERY</p>
+    <h3>Welcome to Our Video Gallery</h3>
+    <p class="size-tag">Click on the Screen</p>
+    <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
 </div>
 
 <!-- Modal for displaying video -->
@@ -85,7 +88,10 @@
             closeModal();
         }
     }
-</script>
 
+    //// light Section////////
+
+</script>
+<script src="VideoModal.js"></script>
 </body>
 </html>

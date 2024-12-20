@@ -1,4 +1,34 @@
-/* General Product Styles */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    color: white;
+    background: linear-gradient(to right,black,darkblue,maroon,black);
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+
+}
+body.Video-Light{
+    background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
+}
+h1{
+    color: wheat;
+    text-shadow: 2px 2px 4px darkblue;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 40px;
+
+}
+body.Video-Light h1{
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+}
 .product {
     display: inline-block;
     text-align: center;
@@ -22,7 +52,6 @@
     transform: scale(1.05);
 }
 
-/* Modal Styles */
 .modal {
     display: none; /* Hidden by default */
     position: fixed;
