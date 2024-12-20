@@ -1110,7 +1110,7 @@ body.lightPlayer #disqus_thread{
 .Comment-Section{
   margin: 0% auto;
   flex-direction: column;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: -15px;
   box-shadow: 0px 2px 5px lightskyblue;  
   border-radius: 100%;
