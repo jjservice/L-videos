@@ -1039,6 +1039,12 @@ background-position: center;
 background-size: cover;
 
 }
+.Vid-gallery-nav a{
+  background-image: url(videocampicc.jpg);
+  background-position: center;
+  background-size: 80%;
+  
+  }
 
 .Home-nav a{
 background-image: url(MusicGig.gif);
@@ -1047,8 +1053,6 @@ background-size: 10%;
 font-size: 15px;
 color: white;
 text-shadow: 2px 2px 2px darkblue;
-
-
 }
 body.lightPlayer .Home-nav a{
 background-size: 100%;
