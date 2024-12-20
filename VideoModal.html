@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VideoModal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="product">
+    <img src="QuimicoDequeRoncaPic.jpg" onclick="openModal(0)">
+    <h3>Razer Kishi for iPhone - Universal Gaming Controller for iOS</h3>
+    <p class="size-tag">
+      - Clickable Analog Thumbsticks <br>
+      - Universal Fit <br>
+      - Ultra-Low Latency Gameplay
+    </p>
+    <p id="Price-tag">$49.99</p>
+    <p id="in-Stock">In Stock: <span id="stock2">1</span></p>
+    <a href="#" class="Buy-Now-Tag">WATCH NOW!</a>
+</div>
+
+<!-- Modal for displaying video -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+        <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        <video id="modal-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<script>
+    // Replace images with video sources
+    const productVideos = [
+        ["Químico ultra Mega - Pa que tú me ronca  danger (video oficial).mp4"], // Product 1 videos
+        ["NikeAirForceVideo1.mp4", "NikeAirForceVideo2.mp4", "NikeAirForceVideo3.mp4"], // Product 2 videos
+    ];
+
+    let currentProductIndex = -1;
+    let currentVideoIndex = 0;
+
+    function openModal(productIndex) {
+        currentProductIndex = productIndex;
+        currentVideoIndex = 0;  // Start from the first video
+        showVideo();
+        document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        document.getElementById("modal-video").pause();  // Pause the video when closing the modal
+    }
+
+    function showVideo() {
+        const videos = productVideos[currentProductIndex];
+        const videoElement = document.getElementById("modal-video");
+        videoElement.src = videos[currentVideoIndex];
+        videoElement.play();  // Start playing the video immediately when opened
+    }
+
+    function changeSlide(direction) {
+        currentVideoIndex += direction;
+        if (currentVideoIndex < 0) {
+            currentVideoIndex = productVideos[currentProductIndex].length - 1;
+        } else if (currentVideoIndex >= productVideos[currentProductIndex].length) {
+            currentVideoIndex = 0;
+        }
+        showVideo();
+    }
+
+    // Close the modal when clicked outside
+    window.onclick = function(event) {
+        if (event.target == document.getElementById("myModal")) {
+            closeModal();
+        }
+    }
+</script>
+
+</body>
+</html>
