@@ -176,3 +176,26 @@ h3{
 .Class-Note{
     color: darkgray;
 }
+.container{
+    display: flex;
+    overflow: scroll;
+}
+.container .product{
+    margin: 0% auto;
+    margin: 10px;
+}
+.container::-webkit-scrollbar{
+    background-color: transparent;
+    height: 10px;
+    width: 0;
+}
+.container::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: blue;
+    border-radius: 8px;
+    height: 15px;
+    width: 0px;
+}
