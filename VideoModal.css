@@ -195,6 +195,11 @@ h3{
     height: 10px;
     width: 0px;
     border: 1px solid yellowgreen;
+    cursor: pointer;
+}
+.container::-webkit-scrollbar-thumb:hover{
+    border: 2px solid gold;
+    background-color: rgba(0, 0, 0, 0.342);
 }
 
 /* Responsive Design for Smaller Screens */
