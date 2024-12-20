@@ -19,7 +19,7 @@ body.Video-Light{
 }
 h1{
     margin: 0% auto;
-    width: 300px;
+    width: 360px;
     color: wheat;
     text-shadow: 2px 2px 4px darkblue;
     letter-spacing: 1px;
@@ -27,7 +27,8 @@ h1{
     font-size: 40px;
     margin-bottom: 5px;
     background-color: rgba(0, 0, 0, 0.452);
-    border-radius: 10px;
+    border-radius: 100%;
+    border: 6px solid rgba(255, 255, 255, 0.164);
     padding: 5px;
 
 }
@@ -144,17 +145,7 @@ video {
     cursor: pointer;
 }
 
-/* Responsive Design for Smaller Screens */
-@media screen and (max-width: 768px) {
-    .modal-content {
-        width: 90%;
-    }
 
-    .prev, .next {
-        font-size: 24px;
-        padding: 8px;
-    }
-}
 #Video-tag{
     color: darkgray;
     text-shadow: 2px 2px 2px darkblue;
@@ -204,4 +195,17 @@ h3{
     height: 10px;
     width: 0px;
     border: 1px solid yellowgreen;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+    }
+
+    .prev, .next {
+        font-size: 24px;
+        padding: 8px;
+    }
+   
 }
