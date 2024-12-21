@@ -28,7 +28,7 @@ h1{
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     background-color: rgba(245, 245, 245, 0.062);
     border-radius: 100%;
     border: 6px solid rgba(255, 255, 255, 0.164);
@@ -268,11 +268,16 @@ footer{
     width: 100%;
     background-color: rgba(245, 245, 245, 0.096);
     color: rgba(155, 151, 151, 0.719);
-    padding: 10px;
+    padding: 8px;
     font-size: 16px;
     text-shadow: 2px 2px 4px rgba(0, 0, 139, 0.329);
     transition: 1s ease-in-out;
 }
 body.Video-Light footer{
     background-color: rgba(0, 0, 0, 0.486);
+}
+@media (min-width: 800px){
+    footer{
+        padding: 12px;
+    }
 }
