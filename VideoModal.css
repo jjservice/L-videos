@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 15px;
+  
 
 }
 body.Video-Light{
@@ -20,35 +20,52 @@ body.Video-Light{
 h1{
     margin: 0% auto;
     width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: wheat;
     text-shadow: 2px 2px 4px darkblue;
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 40px;
-    margin-bottom: 5px;
-    background-color: rgba(0, 0, 0, 0.452);
+    margin-bottom: 25px;
+    background-color: rgba(245, 245, 245, 0.062);
     border-radius: 100%;
     border: 6px solid rgba(255, 255, 255, 0.164);
-    padding: 5px;
+    padding: 5px 10px;
+    margin-top: 20px;
 
 }
+body.Video-Light h1{
+    color: white;
+    text-shadow: 2px 2px 4px gold;
+    background-color: rgba(0, 0, 0, 0.452);
+}
 h2{
+    margin: 0% auto;
+    text-align: center;
     font-size: 16px;
+    width: 150px;
     color: darkgray;
     text-shadow: 2px 2px 2px darkblue;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: rgba(245, 245, 245, 0.144);
+    border-radius: 20px;
+}
+body.Video-Light h2{
+    background-color: rgba(30, 2, 49, 0.438);
+    opacity: 80%;
 }
 
 h2 ion-icon{
     color: wheat;
 }
 body.Video-Light h2 ion-icon{
-    color: rgba(255, 217, 0, 0.856);
+    color: rgba(255, 217, 0, 0.774);
+   
 }
-body.Video-Light h1{
-    color: white;
-    text-shadow: 2px 2px 4px gold;
-}
+
 .product {
     margin: 0% auto;
     display: inline-block;
@@ -220,14 +237,13 @@ h3{
    
 }
 footer{
+    margin: 0% auto;
+    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: rgba(155, 151, 151, 0.719);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     padding: 10px;
     font-size: 16px;
     text-shadow: 2px 2px 4px rgba(0, 0, 139, 0.329);
