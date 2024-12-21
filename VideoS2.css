@@ -378,7 +378,11 @@ body.lightPlayer .video-item button:hover{
   overflow: scroll;
   min-height: 500px;
 }
-
+h1{
+background-image: url(VideoCamGif.gif);
+background-position: center;
+background-size: 100%;
+}
 }
 
 .homebtn{

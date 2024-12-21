@@ -338,7 +338,7 @@ body.Video-Light footer{
 }
 
 .Home-btn{
-    position: absolute;
+    position: fixed;
     text-decoration: none;
     bottom: 5px;
     left: 5px;
@@ -369,7 +369,6 @@ body.Video-Light footer{
 
 
 
-
 @media (min-width: 768px){
     footer{
         padding: 10px;
@@ -378,3 +377,6 @@ body.Video-Light footer{
         padding: 10px 5px;
     }
 }
+
+
+
