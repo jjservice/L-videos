@@ -216,11 +216,18 @@ h3{
     border-radius: 8px;
     height: 10px;
     width: 0px;
-    border: 1px solid yellowgreen;
+    border: 1px solid lightskyblue;
     cursor: pointer;
 }
+body.Video-Light .container::-webkit-scrollbar-thumb{
+    border: 1px solid yellowgreen;
+}
 .container::-webkit-scrollbar-thumb:hover{
-    border: 2px solid gold;
+    border: 2px solid lightskyblue;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+body.Video-Light .container::-webkit-scrollbar-thumb:hover{
+    border: 2px solid yellowgreen;
     background-color: rgba(0, 0, 0, 0.342);
 }
 
