@@ -25,6 +25,10 @@ h1{
     justify-content: center;
     color: wheat;
     text-shadow: 2px 2px 4px darkblue;
+    background-image: url(bonfiregifff.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 40px;
@@ -35,12 +39,15 @@ h1{
     box-shadow: 0px 2px 10px black;
     padding: 5px 10px;
     margin-top: 10px;
+    transition: 2s ease-in;
 
 }
 body.Video-Light h1{
     color: white;
     text-shadow: 2px 2px 4px gold;
     background-color: rgba(0, 0, 0, 0.452);
+    background-image: none;
+    transition: 1s ease-in-out;
 }
 h2{
     margin: 0% auto;
@@ -73,6 +80,7 @@ h4{
     text-shadow: 2px 2px 4px darkblue;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.089);
+    background-image: none;
     width: 100px;
     padding: 10px;
     border-radius: 20px;
@@ -86,6 +94,11 @@ body.Video-Light h4{
     border: 1px solid yellowgreen;
     box-shadow: 0px 2px 10px black;
     background-color: rgba(0, 0, 0, 0.322);
+    background-image: url(lollipop_3GIF.gif);
+    background-position: 72%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+ 
 }
 
 .product {
