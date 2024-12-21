@@ -28,7 +28,6 @@ h1{
     background-image: url(bonfiregifff.gif);
     background-position: center;
     background-size: 50%;
-   
     letter-spacing: 1px;
     cursor: pointer;
     font-size: 40px;
@@ -48,6 +47,25 @@ body.Video-Light h1{
     background-color: rgba(0, 0, 0, 0.452);
     background-image: none;
     transition: 1s ease-in-out;
+}
+h1 ion-icon{
+    color: rgba(255, 217, 0, 0.418);
+    background-image: url(lollipop_3GIF.gif);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid wheat;
+    box-shadow: 0px 2px 2px rgba(135, 206, 250, 0.507);
+    border-radius: 10px;
+}
+h1 ion-icon:hover{
+    transform: scale(1.10);
+    transition: 1s;
+}
+body,.Video-Light h1 ion-icon{
+    color: rgba(255, 217, 0, 0.61);
+    border-bottom: 2px solid wheat;
+    box-shadow: 0px 2px 2px black;
 }
 h2{
     margin: 0% auto;
@@ -94,10 +112,9 @@ body.Video-Light h4{
     border: 1px solid yellowgreen;
     box-shadow: 0px 2px 10px black;
     background-color: rgba(0, 0, 0, 0.322);
-    background-image: url(lollipop_3GIF.gif);
-    background-position: 72%;
-    background-size: 30%;
-    background-repeat: no-repeat;
+    background-image: url(bonfiregifff.gif);
+    background-position: center;
+    background-size: 35%;
  
 }
 
