@@ -294,7 +294,7 @@ footer{
 body.Video-Light footer{
     background-color: rgba(0, 0, 0, 0.486);
 }
-@media (min-width: 800px){
+@media (min-width: 768px){
     footer{
         padding: 12px;
     }
