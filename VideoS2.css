@@ -1040,6 +1040,14 @@ background-position: top;
 background-size: cover;
 
 }
+.Contact-nav a{
+  background-image: url(ContactImgPic.gif);
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  
+  
+  }
 .Documentaries-nav a{
 background-image: url(DocumentariesGif.gif);
 background-position: center;
