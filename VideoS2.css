@@ -9,7 +9,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background: linear-gradient(to right,black,black,darkblue,maroon,black,black);
   height: auto;
-  paddi
 
 }
 body.lightPlayer{
@@ -255,9 +254,12 @@ body.lightPlayer .video-item button:hover{
 }
 
 @media (min-width: 768px) {
+  body{
+    padding: 10px;
+  }
   .video-player {
     margin: 0% auto;
-    max-width: 800px;
+    width: 700px;
     height: auto;
     margin: 20px auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
