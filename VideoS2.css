@@ -259,7 +259,7 @@ body.lightPlayer .video-item button:hover{
   }
   .video-player {
     margin: 0% auto;
-    width: 700px;
+    width: 750px;
     height: auto;
     margin: 20px auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
