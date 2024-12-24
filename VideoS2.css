@@ -17,7 +17,7 @@ body.lightPlayer{
 }  
 .video-player {
   margin: 0% auto;
-  max-width: 370px;
+  max-width: 95%;
   margin: 20px auto;
   background: rgba(0, 0, 0, 0.363);
   padding-left: 10px;
@@ -256,7 +256,7 @@ body.lightPlayer .video-item button:hover{
 @media (min-width: 768px) {
   .video-player {
     margin: 0% auto;
-    min-width: 700px;
+    max-width: 800px;
     height: auto;
     margin: 20px auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
