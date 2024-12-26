@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Video333.css">
+    
+    <title>LOLLIPOP VIDEO GALLERY</title>
+</head>
+<body class="Video-Light">
+
+    <h1 onclick="toggleLight()">LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
+    <h4>TOP 5</h4>
+    <a href="javascript:history.back()" class="Home-btn">BACK</a>
+
+    <hr>
+    <ul class="container">
+        <div class="product">
+            <img src="ChenchoMikyImoacientePic.jpg" onclick="openModal(0)">
+            <p id="Video-tag">Impaciente</p> 
+            <h3>Chencho Corleone x Miky Woods</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>
+
+        <div class="product">
+            <img src="MaldyTiemposDeplanbPIC2.jpg" onclick="openModal(1)">
+            <p id="Video-tag">Tiempos de Plan B</p>
+            <h3>Maldy</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>
+
+        <div class="product">
+            <img src="LoloenelmicrofonoPic.jpg" onclick="openModal(2)">
+            <p id="Video-tag">Sigo guerreando</p>
+            <h3>Lolo en el microfono</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>
+
+        <div class="product">
+            <img src="UnaDiablaQuilesPressurePic.jpg" onclick="openModal(3)">
+            <p id="Video-tag">Una Diabla</p>
+            <h3>Pressure9x19 x Justin Quiles</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="DollaZonPic.jpg" onclick="openModal(4)">
+            <p id="Video-tag">Dollaz on my head</p>
+            <h3>Gunna x Young Thug</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.>.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="ChenchoHoraDeSalirPic.jpg" onclick="openModal(5)">
+            <p id="Video-tag">Hora de salir</p>
+            <h3>Chencho Corleone</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+    </ul>
+       
+    <footer>
+        <h2>&copy;JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h2>
+    </footer>
+
+    <!-- Ad Section -->
+    <div id="adSection" class="ad-section" style="display: none;">
+        <p class="add-title">LOLLIPOP CLUB!</p>
+        <img src="MonkeyDesignGif.gif" class="modal-content">
+        <a href="https://jjservice.github.io/L-Club-Store/Shopping.html" class="Visit-Store">Click Now!</a>
+        <button id="skipAd" style="display: none;">Skip Ad</button>
+    </div>
+
+    <!-- Modal for displaying video -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+            <span class="next" onclick="changeSlide(1)">&#10095;</span>
+            <video id="modal-video" controls autoplay>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        // Ads data for each product
+        const ads = [
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" }
+        ];
+
+        const productVideos = [
+            ["Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4"],
+            ["Maldy - Tiempos de Plan B (Official Video).mp4"],
+            ["Lolo En Él Micrófono - Sigo Guerreando.mp4"],
+            ["Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"],
+            ["Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4"],
+            ["Chencho Corleone - Hora de Salir (Official Video).mp4"]
+        ];
+
+        let currentProductIndex = -1;
+        let currentVideoIndex = 0;
+        let adTimeout;
+
+        function openModal(productIndex) {
+            // Show the ad for the specific product
+            const ad = ads[productIndex]; // Get the corresponding ad
+
+            // Set the ad content dynamically
+            document.getElementById('adSection').style.display = 'block';
+            document.getElementById('skipAd').style.display = 'block';
+            document.querySelector('#adSection .add-title').innerText = ad.title;
+            document.querySelector('#adSection .modal-content').src = ad.image;
+            document.querySelector('#adSection .Visit-Store').href = ad.link;
+
+            // Hide the modal and video elements initially
+            document.getElementById("myModal").style.display = "none";
+
+            // Show the ad for 5 seconds, then show the video
+            adTimeout = setTimeout(() => {
+                document.getElementById('adSection').style.display = 'none'; // Hide the ad
+                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
+                openVideoModal(productIndex); // Show the video after ad ends
+            }, 5000); // 5 seconds
+
+            // If the user skips the ad
+            document.getElementById('skipAd').onclick = function() {
+                clearTimeout(adTimeout); // Stop the ad timeout
+                document.getElementById('adSection').style.display = 'none'; // Hide the ad
+                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
+                openVideoModal(productIndex); // Show the video
+            };
+        }
+
+        function openVideoModal(productIndex) {
+            currentProductIndex = productIndex;
+            currentVideoIndex = 0;  // Start from the first video
+            showVideo();
+            document.getElementById("myModal").style.display = "block"; // Show the video modal
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+            const videoElement = document.getElementById("modal-video");
+            videoElement.pause();  // Pause the video when closing the modal
+            videoElement.currentTime = 0;  // Reset video time to start
+        }
+
+        function showVideo() {
+            const videos = productVideos[currentProductIndex];
+            const videoElement = document.getElementById("modal-video");
+            videoElement.src = videos[currentVideoIndex];
+            videoElement.load();  // Reload the video source
+            videoElement.play();  // Start playing the video immediately
+
+            // Automatically play next video when current one ends
+            videoElement.onended = function() {
+                changeSlide(1); // Play next video when the current video ends
+            };
+        }
+
+        function changeSlide(direction) {
+            const videos = productVideos[currentProductIndex];
+            currentVideoIndex += direction;
+            if (currentVideoIndex < 0) {
+                currentVideoIndex = videos.length - 1; // Loop to the last video
+            } else if (currentVideoIndex >= videos.length) {
+                currentVideoIndex = 0; // Loop to the first video
+            }
+            showVideo();
+        }
+
+        // Close the modal when clicked outside
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("myModal")) {
+                closeModal();
+            }
+        }
+
+        // Light Section
+        function toggleLight(){
+            const body = document.querySelector('body');
+            body.classList.toggle('Video-Light');
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
