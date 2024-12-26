@@ -366,8 +366,8 @@ body.Video-Light footer{
  /* Ad Section Styles */
  .ad-section {
     margin: 0% auto;
-    display: inline-block;
-    position: fixed;
+    position: absolute;
+    
     bottom: 0;
     left: 0;
     width: 100%;
