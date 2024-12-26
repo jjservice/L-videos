@@ -376,8 +376,12 @@ body.Video-Light footer{
     color: white;
     text-align: center;
     justify-content: center;
+    align-items: center;
     padding-top: 20%;
     font-size: 24px;
+}
+.ad-section img{
+    border-radius: 10px;
 }
 .add-title{
     margin: 0% auto;
@@ -395,7 +399,7 @@ body.Video-Light footer{
     position: relative;
     bottom: 0;
     left: 0;
-    display: inline-block;
+    display: flex;
     color: white;
     text-shadow: 2px 2px 4px gold;
     display: inline-block;
@@ -431,15 +435,16 @@ body.Video-Light footer{
     }
     .ad-section img{
         margin: 0% auto;
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 75%;
     }
 
     .Visit-Store{
         margin: 0% auto;
-        position: absolute;
-        bottom: 50px;
-        left: 590px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        
     
     }
 
