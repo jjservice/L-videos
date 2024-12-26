@@ -363,20 +363,6 @@ body.Video-Light footer{
     border-radius: 20px;
 }
 
-#skipAdVideo {
-    position: fixed;
-    right: 5px;
-    bottom: 2px;
-    padding: 10px 20px;
-    background-color: darkblue;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border: 1px solid yellowgreen;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
  /* Ad Section Styles */
  .ad-section {
     margin: 0% auto;
@@ -478,4 +464,3 @@ body.Video-Light footer{
     
    
 }
-

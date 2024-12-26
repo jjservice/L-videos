@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Video333.css">
-    
     <title>LOLLIPOP VIDEO GALLERY</title>
 </head>
 <body class="Video-Light">
-
     <h1 onclick="toggleLight()">LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
     <h4>TOP 5</h4>
     <a href="javascript:history.back()" class="Home-btn">BACK</a>
-
     <hr>
+
     <ul class="container">
+       
         <div class="product">
             <img src="ChenchoMikyImoacientePic.jpg" onclick="openModal(0)">
             <p id="Video-tag">Impaciente</p> 
@@ -75,16 +74,24 @@
         <h2>&copy;JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h2>
     </footer>
 
+    <!-- Ad Section: Image Ad -->
+    <div id="imageAdSection" class="ad-section" style="display: none;">
+        <p class="add-title">LOLLIPOP CLUB!</p>
+        <img src="" class="modal-content" id="adImage">
+        <a href="#" class="Visit-Store">Click Now!</a>
+        <button id="skipAd">Skip Ad</button>
+    </div>
 
-    
-         <!-- Ad Section -->
-         <div id="adSection" class="ad-section" style="display: none;">
-            <p class="add-title">LOLLIPOP CLUB!</p>
-            <img src="MonkeyDesignGif.gif" class="modal-content">
-            <a href="https://jjservice.github.io/L-Club-Store/Shopping.html" class="Visit-Store">Visit Store Now!</a>
-            <button id="skipAd" style="display: none;">Skip Ad</button>
-        </div>
-   
+    <!-- Ad Section: Video Ad -->
+    <div id="videoAdSection" class="ad-section" style="display: none;">
+        <p class="add-title">LOLLIPOP CLUB!</p>
+        <video id="adVideo" class="modal-content" autoplay>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="#" class="Visit-Store">Click Now!</a>
+        <button id="skipAdVideo">Skip Ad</button>
+    </div>
 
     <!-- Modal for displaying video -->
     <div id="myModal" class="modal">
@@ -99,90 +106,89 @@
     </div>
 
     <script>
-        // Replace images with video sources
+        // Separate ads data for image and video
+        const imageAds = [
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "#", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "#", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+        ];
+
+        const videoAds = [
+            { title: "LOLLIPOP CLUB", video: "#", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", video: "Suchard 2023 I La vida es.mp4", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", video: "#", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", video: "Suchard 2023 I La vida es.mp4", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+        ];
+
         const productVideos = [
-        [
-        [
-            "Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4"
-        ],
-        [
-            "Suchard 2023 I La vida es.mp4"
-        ],  ////Add////
-    
-        [
-            "Maldy - Tiempos de Plan B (Official Video).mp4"
-        ], // Product 1 videos
-
-        [
-            "Lolo En Él Micrófono - Sigo Guerreando.mp4"
-        ], // Product 2 videos
-        
-        [
-            "The Holiday Magic is coming(Video Official).mp4"
-        ], ////Add////
-
-        [
-            "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"
-        ], // Product 3 videos
-
-        [
-            "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4"
-        ], // Product 4 videos
-
-        [
-            "Chencho Corleone - Hora de Salir (Official Video).mp4"
-        ] // Product 5 videos
-        ], // Product 0 videos
-
-        [
-            "Maldy - Tiempos de Plan B (Official Video).mp4",
-        ], // Product 1 videos
-
-        [
-            "Lolo En Él Micrófono - Sigo Guerreando.mp4",
-        ], // Product 2 videos
-
-        [
-            "Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4",
-        ], // Product 3 videos
-
-        [
-            "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4",
-        ], // Product 4 videos
-
-        [
-            "Chencho Corleone - Hora de Salir (Official Video).mp4",
-        ], // Product 5 videos
+            ["Chencho Corleone  Miky Woodz – Impaciente  (Video Oficial).mp4"],
+            ["Maldy - Tiempos de Plan B (Official Video).mp4"],
+            ["Lolo En Él Micrófono - Sigo Guerreando.mp4"],
+            ["Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"],
+            ["Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4"],
+            ["Chencho Corleone - Hora de Salir (Official Video).mp4"]
         ];
 
         let currentProductIndex = -1;
         let currentVideoIndex = 0;
         let adTimeout;
 
+        // Show the correct ad and video based on the product index
         function openModal(productIndex) {
-            // Show the ad
-            document.getElementById('adSection').style.display = 'block';
-            document.getElementById('skipAd').style.display = 'block';
+            // Hide both ad sections initially
+            document.getElementById('imageAdSection').style.display = 'none';
+            document.getElementById('videoAdSection').style.display = 'none';
 
-            // Hide the modal and video elements
-            document.getElementById("myModal").style.display = "none";
+            // Show the correct ad section based on the product
+            const imageAd = imageAds[productIndex];
+            const videoAd = videoAds[productIndex];
 
-            // Show the ad for 10 seconds, then show the video
+            // Determine if we show an image or a video ad
+            if (shouldShowImageAd(productIndex)) {
+                // Show the image ad section
+                document.getElementById('imageAdSection').style.display = 'block';
+                document.getElementById('adImage').src = imageAd.image;
+                document.querySelector('#imageAdSection .Visit-Store').href = imageAd.link;
+            } else {
+                // Show the video ad section
+                document.getElementById('videoAdSection').style.display = 'block';
+                document.getElementById('adVideo').src = videoAd.video;
+                document.querySelector('#videoAdSection .Visit-Store').href = videoAd.link;
+            }
+
+            // Set up a timeout to hide ads after 5 seconds and show the video
             adTimeout = setTimeout(() => {
-                document.getElementById('adSection').style.display = 'none'; // Hide the ad
-                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
-                openVideoModal(productIndex); // Show the video after ad ends
-            }, 5000); // 5 seconds
+                document.getElementById('imageAdSection').style.display = 'none';
+                document.getElementById('videoAdSection').style.display = 'none';
+                openVideoModal(productIndex);
+            }, 600000);
 
-            // If the user skips the ad
-            document.getElementById('skipAd').onclick = function() {
-                clearTimeout(adTimeout); // Stop the ad timeout
-                document.getElementById('adSection').style.display = 'none'; // Hide the ad
-                document.getElementById('skipAd').style.display = 'none'; // Hide the skip button
-                openVideoModal(productIndex); // Show the video
+            // Skip buttons to go directly to the video
+            document.getElementById('skipAdVideo').onclick = function () {
+                clearTimeout(adTimeout);
+                document.getElementById('videoAdSection').style.display = 'none';
+                openVideoModal(productIndex);
+            };
+
+            document.getElementById('skipAd').onclick = function () {
+                clearTimeout(adTimeout);
+                document.getElementById('imageAdSection').style.display = 'none';
+                openVideoModal(productIndex);
             };
         }
 
+        // Decide whether to show an image ad or a video ad (customize this logic)
+        function shouldShowImageAd(productIndex) {
+            // This function determines if an image ad should be shown.
+            // You can change the logic to match your needs (e.g., based on a condition).
+            return productIndex % 2 === 0; // For simplicity, show image ads for even-indexed products
+        }
+
+        // Open the video modal and show the correct video
         function openVideoModal(productIndex) {
             currentProductIndex = productIndex;
             currentVideoIndex = 0;  // Start from the first video
@@ -190,13 +196,7 @@
             document.getElementById("myModal").style.display = "block"; // Show the video modal
         }
 
-        function closeModal() {
-            document.getElementById("myModal").style.display = "none";
-            const videoElement = document.getElementById("modal-video");
-            videoElement.pause();  // Pause the video when closing the modal
-            videoElement.currentTime = 0;  // Reset video time to start
-        }
-
+        // Show the current video for the selected product
         function showVideo() {
             const videos = productVideos[currentProductIndex];
             const videoElement = document.getElementById("modal-video");
@@ -204,12 +204,13 @@
             videoElement.load();  // Reload the video source
             videoElement.play();  // Start playing the video immediately
 
-            // Automatically play next video when current one ends
-            videoElement.onended = function() {
+            // Automatically play next video when the current one ends
+            videoElement.onended = function () {
                 changeSlide(1); // Play next video when the current video ends
             };
         }
 
+        // Change the video slide (next or previous)
         function changeSlide(direction) {
             const videos = productVideos[currentProductIndex];
             currentVideoIndex += direction;
@@ -222,19 +223,25 @@
         }
 
         // Close the modal when clicked outside
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target == document.getElementById("myModal")) {
                 closeModal();
             }
         }
 
-        
-//// Light Section ////
+        // Close the modal and pause video
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+            const videoElement = document.getElementById("modal-video");
+            videoElement.pause();
+            videoElement.currentTime = 0;  // Reset video time to start
+        }
 
-function toggleLight(){
-    const body = document.querySelector('body');
-    body.classList.toggle('Video-Light');
-  }
+        // Light Section
+        function toggleLight(){
+            const body = document.querySelector('body');
+            body.classList.toggle('Video-Light');
+        }
     </script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -242,4 +249,3 @@ function toggleLight(){
 
 </body>
 </html>
-
