@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Video44.css">
-    
-    <title>LOLLIPOP VIDEO GALLERY</title>
+    <title>LOLLIPOP</title>
 </head>
 <body class="Video-Light">
 
     <h1 onclick="toggleLight()">LOLLIP<ion-icon name="headset-sharp"></ion-icon>P</h1>
-    <h4>TOP 5</h4>
+    <h4>TOP 10</h4>
     <a href="javascript:history.back()" class="Home-btn">BACK</a>
 
     <hr>
@@ -51,6 +50,12 @@
             <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
         </div>  
 
+
+
+
+
+
+
         <div class="product">
             <img src="DollaZonPic.jpg" onclick="openModal(4)">
             <p id="Video-tag">Dollaz on my head</p>
@@ -64,6 +69,42 @@
             <img src="ChenchoHoraDeSalirPic.jpg" onclick="openModal(5)">
             <p id="Video-tag">Hora de salir</p>
             <h3>Chencho Corleone</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="TylorSwiftBlankSpace.jpg" onclick="openModal(6)">
+            <p id="Video-tag">Blank Space</p>
+            <h3>Taylor Swift</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.>.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="RickRossChampagnemomentsPic.jpg" onclick="openModal(7)">
+            <p id="Video-tag">Champagne moments</p>
+            <h3>Rick Ross</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="YiyoCorazonDeAceroPic.jpg" onclick="openModal(8)">
+            <p id="Video-tag">Corazon De Acero</p>
+            <h3>Yiyo Sarante</h3>
+            <p class="Click-tag">Click on the Screen</p>
+            <p class="Class-Note" style="display: none;">.;.>.;.This Project is under-development.;.</p>
+            <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
+        </div>  
+
+        <div class="product">
+            <img src="PesoPlumaNataPrcPic.jpg" onclick="openModal(9)">
+            <p id="Video-tag">PRC</p>
+            <h3>Peso Pluma x Natanael Cano</h3>
             <p class="Click-tag">Click on the Screen</p>
             <p class="Class-Note" style="display: none;">.;.This Project is under-development.;.</p>
             <a href="#" class="Buy-Now-Tag" style="display: none;">WATCH NOW!</a>
@@ -103,7 +144,12 @@
             { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
             { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
             { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
+            { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" },
+            { title: "LOLLIPOP CLUB", image: "MonkeyDesignGif.gif", link: "https://jjservice.github.io/L-Club-Store/Shopping.html" },
             { title: "LOLLIPOP CLUB", image: "ContactImgPic.gif", link: "https://jjservice.github.io/L-Club-Store/ContactForm.html" }
+
         ];
 
         const productVideos = [
@@ -112,7 +158,12 @@
             ["Lolo En Él Micrófono - Sigo Guerreando.mp4"],
             ["Pressure9x19 X  @justinquiles  - Una Diabla (Official Video).mp4"],
             ["Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4"],
-            ["Chencho Corleone - Hora de Salir (Official Video).mp4"]
+            ["Chencho Corleone - Hora de Salir (Official Video).mp4"],
+            ["Taylor Swift - Blank Space.mp4"],
+            ["Rick Ross - Champagne Moments (Official Music Video).mp4"],
+            ["Yiyo Sarante - Corazòn de Acero (Video Oficial).mp4"],
+            ["Peso Pluma, Natanael Cano - PRC (Video Oficial).mp4"]
+           
         ];
 
         let currentProductIndex = -1;
