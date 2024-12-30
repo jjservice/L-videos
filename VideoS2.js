@@ -486,13 +486,13 @@ function toggleClassPlayer(){
     
 // Your web app's Firebase configuration (already provided)
 const firebaseConfig = {
-    apiKey: "AIzaSyDCG0j5LN8sE1vE7viRCkH5r84-Yf8f6uo",
-    authDomain: "message-app-29ab4.firebaseapp.com",
-    projectId: "message-app-29ab4",
-    storageBucket: "message-app-29ab4.firebasestorage.app",
-    messagingSenderId: "490264790429",
-    appId: "1:490264790429:web:41f1d58f0bd48d064e5b74"
-    };
+    apiKey: "AIzaSyB4XRV0Wodg4jk5QLlMJm1hwIGlXsJNP5Y",
+    authDomain: "video-chat-ea603.firebaseapp.com",
+    projectId: "video-chat-ea603",
+    storageBucket: "video-chat-ea603.firebasestorage.app",
+    messagingSenderId: "219248200207",
+    appId: "1:219248200207:web:563a3a660d86afe04a317a"
+  };
     
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
