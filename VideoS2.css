@@ -1525,7 +1525,7 @@ li span {
 
         /* Style for each emoji in the box */
         .emoji-item {
-            margin:  auto;
+            margin: 0% auto;
             text-align: center;
             font-size: 30px;
             cursor: pointer;
@@ -1543,6 +1543,7 @@ li span {
             margin-left: 10px;
         }
         #emojiButton{
+            margin: 0% auto;
             position: relative;
             bottom: -4px;
             left: 0px;
