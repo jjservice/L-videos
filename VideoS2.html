@@ -33,7 +33,7 @@
     <div class="Nav-Section2">
       <nav>
 
-        <ul class="Home-nav"><a href="https://jjservice.github.io/L2/1.html">Home</a></ul>
+        <ul class="Home-nav" style="display: none;"><a href="https://jjservice.github.io/L2/1.html">Home</a></ul>
         <ul class="Vid-gallery-nav"><a href="Video4.html">Docu</a></ul>
         <ul class="Music-player-nav"><a href="https://jjservice.github.io/L2/MusicS3.html">Musi</a></ul>
         <ul class="Kids-nav"><a href="https://jjservice.github.io/L-Documentaries/Lkids.html">Kids</a></ul>
@@ -310,6 +310,19 @@
     
   </script>
     
+
+    <footer>
+      <div class="homebtn"><a href="javascript:history.back()"><ion-icon name="arrow-back-sharp"></ion-icon></a></div>
+      <p>&copy;<span id="currentYear"></span>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+    </footer>
+  
+    <script>
+      // Get the current year
+      const currentYear = new Date().getFullYear();
+      
+      // Find the element with id "currentYear" and set its content to the current year
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
 
 
     
