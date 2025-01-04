@@ -1,10 +1,10 @@
 const videos = [
     {   
         id: 1, 
-        name: "DOLLAZ ON MY HEAD", 
-        artist: "Gunna x Young Thug", 
-        img: "DollaZonPic.jpg", 
-        video: "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4" 
+        name: "La Franquicia", 
+        artist: "Arcangel", 
+        img: "./ArcangelPapiArcaAlbumPic.jpg", 
+        video: "./Arcángel - La Franquicia (Video Oficial).mp4" 
     },
     {   
         id: 2, 
@@ -219,13 +219,20 @@ const videos = [
     },
     {   
         id: 32, 
+        name: "DOLLAZ ON MY HEAD", 
+        artist: "Gunna x Young Thug", 
+        img: "DollaZonPic.jpg", 
+        video: "Gunna - DOLLAZ ON MY HEAD (feat. Young Thug) [Official Video].mp4" 
+    },
+    {   
+        id: 33, 
         name: "La Vida Ta Loca", 
         artist: "Don Miguelo", 
         img: "DonMigueloLaVidaTaLocaPic.jpg", 
         video: "Don Miguelo - La Vida Ta Loca (Video Oficial) (1).mp4" 
     },
     {   
-        id: 33, 
+        id: 34, 
         name: "DORA", 
         artist: "FARIANA x El Alfa", 
         img: "elalfadorayouPic.jpg", 
